@@ -1,0 +1,135 @@
+header {
+    position: fixed;
+    width: 100%; 
+    background: #ffffff;
+    z-index: 100;
+    padding: 10px 5%;
+}
+
+header img {
+    width: 80%;
+    margin-left: 25px;
+    
+}
+header ul {
+    margin: 20px 0 0;
+    text-align: right;
+}
+
+
+
+header li {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 70px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+header ul li a {
+    color: gray;
+}
+
+.bg-banner {
+    padding: 10px 5%;
+    height: 100vh;
+}
+
+.bg-banner .images {
+    position: relative;
+}
+
+.bg-banner img {
+    max-width: 100%;
+    z-index: 10;
+}
+
+.bg-banner h1 {
+    position: absolute;
+    z-index: 100;
+    top:55%;
+    right: 25%;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color:#848688;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.bg-banner .selo {
+    position: absolute;
+    z-index: 100;
+    top: 215px;
+    right: -65px;
+    width: 200px;
+}
+
+footer {
+    z-index: 100;
+    position: relative;
+    padding: 10px 5%;
+}
+
+form {
+    position: absolute;
+    z-index: 100;
+    bottom: 0px;
+    left: 140px;
+    width: 200px;
+}
+
+input {
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px;
+    background: rgba(255, 255, 255, .4);
+}
+
+.box-whats {
+    background: rgba(255, 255, 255, .4);
+    padding: 18px 10px;
+}
+
+.text-black {
+    color: #000;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+.box-whats svg {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px 0 0;
+}
+
+
+
+.box-insta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.box-insta img {
+    width: 800px;
+    height: 800px;
+    position: relative;
+}
+
+.siga-nos {
+    margin-left: 30px;
+}
+
+.siga-nos svg {
+    width: 40px;
+}
+
+.siga-nos svg g {
+    fill: #fff;
+}

@@ -1,6 +1,6 @@
 <?php
 
-$pageurl = "https://".$_SERVER["SERVER_NAME"]."";
+$pageurl = "https://".$_SERVER["SERVER_NAME"]."/cieb";
 
 $url = explode('/', $_GET['cod']);
 $page = $url["0"];

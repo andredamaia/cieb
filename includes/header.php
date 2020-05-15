@@ -7,13 +7,13 @@
 
             <div class="col-12 col-md-9">
                 <ul>
-                    <li><a href="<?php echo $pageurl; ?>/empresa">Empresa</a></a></li>
+                    <li><a href="<?php echo $pageurl; ?>/empresa">Empresa</a></li>
     
-                    <li><a href="/">Serviços</a></li>
+                    <li><a href="<?php echo $pageurl; ?>/servicos">Serviços</a></li>
     
-                    <li><a href="/">Clientes</a></li>
+                    <li><a href="<?php echo $pageurl; ?>/clientes">Clientes</a></li>
     
-                    <li><a href="/">portifólio</a></li>
+                    <li><a href="<?php echo $pageurl; ?>/portifolio">Portifólio</a></li>
     
                     <li><a href="/">Contato</a></li>
                 </ul>

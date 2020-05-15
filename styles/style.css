@@ -1,3 +1,21 @@
+/*global*/
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+p{
+    margin-bottom: 30px;
+}
+
+
+
+
+/* home */
+
 header {
     position: fixed;
     width: 100%; 
@@ -135,3 +153,218 @@ input {
 }
 
 /* Empresa */
+
+.bg-empresa {
+    padding: 30px;
+}
+
+.bg-empresa img.img-city {
+    width: 100%;
+    margin: 100px 0 0px -85px;
+}
+
+.bg-empresa .text-service {
+    padding: 50px 0;
+    margin-top: 70px;
+}
+
+.bg-empresa p {
+    font-size: 15px;
+}
+
+
+
+.box-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 275px;
+    border: 1px solid #507271;
+    margin-bottom: 30px;
+}
+.icon-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    height: 6px;
+}
+
+.box-icon:nth-child(2) {
+    margin-left: 80px;
+}
+
+.box-icon:nth-child(3) {
+    margin-left: 130px;
+}
+
+.box-icon:last-child {
+    margin-left: 180px;
+}
+
+.box-icon p {
+    font-size: 20px;
+    color: #507271;
+    display: block;
+    align-items: center;
+    padding-top: 28px;
+    line-height: 15px;
+}
+
+.box-icon span {
+    color: #373435;
+    font-size: 11px;
+    align-items: center;
+}
+
+.icon-img img {
+    width: 70px;
+}
+
+/* serviços */
+
+.bg-serviços {
+    padding: 120px 0;
+}
+
+.box-green {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.box {
+    background:#507271;
+    padding: 25px;
+    width: 220px;
+    height: 70vh;
+    margin: 0 10px;
+}
+
+.box p {
+    font-size: 14px;
+    align-items: initial;
+    color: #fff;
+}
+
+.box h4 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.box-img {
+    text-align: center;
+}
+
+.box-img img {
+    width: 60%;
+    margin-top: -25px;
+}
+
+h2 {
+    color:#507271;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.title {
+    margin-bottom: 55px;
+    margin-left: 25px;
+}
+
+.title p {
+    font-size: 14px;
+}
+
+
+/*clientes*/
+
+.bg-clientes {
+    padding: 150px 0;
+}
+
+.left-banner {
+    padding: 0;
+}
+
+.left-banner img {
+    width: 100%;
+}
+
+.bg-green {
+    border: 1px solid #fff;
+    background: #507271;
+    padding: 15px 30px;
+    font-size: 21px;
+    color: #fff;
+    width: 350px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+
+
+h3 {
+    align-items: center;
+}
+
+.logo-first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.logo-second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.logo-first img {
+    width: 100px;
+    margin: 0 10px;
+}
+
+.logo-second img {
+    width: 100px;
+    margin: 0 10px;
+}
+
+.box-clientes {
+    border: 1px solid #507271 ;
+}
+
+h3 {
+    border-bottom: 1px solid #507271 ;
+    padding: 25px;
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/*Portifólio*/
+
+.bg-portifolio {
+    padding: 150px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img-button {
+    padding: 10px 0;
+}
+
+.img-button img {
+    width: 50px;
+}
+
+.img-button p {
+    font-size: 10px;
+    border: 1px solid;
+    background: #507271;
+}
